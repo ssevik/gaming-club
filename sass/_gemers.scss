@@ -1,0 +1,28 @@
+/** @format */
+
+.gemers {
+  display: grid;
+  grid-template-columns: min-content max-content;
+  gap: 4rem 2rem;
+  align-content: center;
+  justify-content: center;
+  grid-column: 9 / -1;
+  background-color: $blue-dark;
+}
+
+.gemers__title {
+  grid-column: 1 / -1;
+  justify-self: center;
+}
+
+.gemers__img {
+  width: 7rem;
+}
+
+.gemers-box {
+  align-self: center;
+}
+
+.gemers-box__descr {
+  color: $grey;
+}

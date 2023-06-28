@@ -1,0 +1,24 @@
+.features {
+  grid-column: 3 / 11;
+  padding: 15rem 0;
+}
+
+.features__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+  gap: 3rem 4rem;
+  align-items: start;
+}
+
+.features__item {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  gap: 1.5rem 2.5rem;
+}
+
+.features__svg {
+  grid-row: 1 / span 2;
+  width: 4.5rem;
+  height: 4.5rem;
+  transform: translateY(-1rem);
+}

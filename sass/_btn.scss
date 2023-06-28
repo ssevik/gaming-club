@@ -1,0 +1,12 @@
+.btn {
+  padding: 1.5rem 3rem;
+  color: $white;
+  background-color: $green-light;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  &:hover,
+  &:focus {
+    background-color: $green-dark;
+  }
+}
